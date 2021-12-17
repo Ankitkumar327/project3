@@ -75,9 +75,10 @@ body {
 .cards-container {
   position: relative;
   top: -60px;
+  left: -250px;
   /* border: 1px solid black; */
   height: 400px;
-  width: 795px;
+  width: 1300px;
   display: flex;
   justify-content: space-between;
   text-align: center;
@@ -88,6 +89,7 @@ body {
   height: 330px;
   width: 220px;
   border-radius: 10px;
+  /* display: inline-block; */
   box-shadow: 10px 10px 10px #d6d0d0;
 }
 .card1 {
@@ -224,8 +226,6 @@ body {
   top: -10px;
   left: 15px;
 }
-.container-card-trip {
-}
 .card-trip {
   display: inline-block;
   padding-left: 100px;
@@ -258,21 +258,26 @@ body {
   top: 270px;
   left: 480px;
 }
-
 @media screen and (min-width: 480px) and (max-width: 1000px) {
   .ui {
     margin: 0px;
     width: auto;
+    /* border: 1px solid black; */
   }
   .head-container {
+    /* border: 1px solid black; */
     width: auto;
     padding-right: 10px;
     padding-bottom: 100px;
   }
   .left-title {
+    /* border: 1px solid black; */
+
     margin-left: 10px;
+    /* display: block; */
   }
   .right-title {
+    /* border: 1px solid black; */
     width: auto;
     padding-right: 10px;
     height: 40px;
@@ -284,11 +289,18 @@ body {
   .task-body {
     visibility: hidden;
   }
+  form {
+    visibility: hidden;
+  }
+  .line {
+    visibility: hidden;
+  }
   .cards-container {
     position: relative;
     left: 0px;
     padding: 20px;
     flex-direction: column;
+    /* border: 1px solid black; */
     width: auto;
     height: auto;
   }
@@ -362,20 +374,25 @@ body {
     visibility: initial;
   }
 }
-
-@media screen (min-width: 300px) and (max-width: 480px) {
+@media screen and (min-width: 300px) and (max-width: 480px) {
   .ui {
     margin: 0px;
     width: 320px;
+    /* border: 1px solid black; */
   }
   .head-container {
+    /* border: 1px solid black; */
     width: 350px;
     padding-right: 10px;
   }
   .left-title {
+    /* border: 1px solid black; */
+
     margin-left: 10px;
+    /* display: block; */
   }
   .right-title {
+    /* border: 1px solid black; */
     width: 40px;
     height: 40px;
     margin-right: 0px;
@@ -396,6 +413,7 @@ body {
     position: relative;
     left: 0px;
     flex-direction: column;
+    /* border: 1px solid black; */
     width: 355px;
     height: 560px;
   }
@@ -417,6 +435,7 @@ body {
     visibility: hidden;
   }
   .title-trip {
+    /* border: 1px solid black; */
     width: 525px;
     position: relative;
     left: -130px;
