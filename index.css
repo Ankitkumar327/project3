@@ -258,7 +258,7 @@ body {
   top: 270px;
   left: 480px;
 }
-@media screen and (min-width: 480px) and (max-width: 1000px) {
+@media screen and (min-width: 480px) and (max-width: 1280px) {
   .ui {
     margin: 0px;
     width: auto;
@@ -374,7 +374,7 @@ body {
     visibility: initial;
   }
 }
-@media screen and (min-width: 300px) and (max-width: 480px) {
+@media screen and (min-width: 280px) and (max-width: 480px) {
   .ui {
     margin: 0px;
     width: 320px;
